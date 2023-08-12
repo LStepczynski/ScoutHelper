@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='output.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Josefin+Sans:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
     {% block head %}{% endblock %}
 </head>
-<body>
-    <nav class="bg-slate-200 h-[50px] md:h-[70px] px-[5vw]">
-        <ul class="flex | justify-end | h-[100%] | text-green-400 | space-x-4 xs:space-x-6 md:space-x-10 | text-[13px] xs:text-[18px] md:text-[25px]">
-            <li class="grid place-items-center font-bold"><p>Scout Helper</p></li>
-            <li class="grid place-items-center"><a href="{{url_for('home')}}">Strona Główna</a></li>
-            <li class="grid place-items-center"><a href="{{url_for('about')}}">O Nas</a></li>
-            <li class="grid place-items-center"><a href="{{url_for('quiz')}}">Quiz</a></li>
+<body class="bg-lime-200">
+    <nav class="bg-lime-300 h-[50px] md:h-[70px] px-[5vw]">
+        <ul class="flex | justify-end | h-[100%] | text-green-700 | space-x-4 xs:space-x-6 md:space-x-10 | text-[13px] xs:text-[18px] md:text-[25px]">
+            <li class="grid | place-items-center | font-bold"><p>Scout Helper</p></li>
+            <li class="grid | place-items-center | font-semibold"><a href="{{url_for('home')}}">Strona Główna</a></li>
+            <li class="grid | place-items-center | font-semibold"><a href="#target-scroll">O Nas</a></li>
+            <li class="grid | place-items-center | font-semibold"><a href="{{url_for('quiz')}}">Quiz</a></li>
         </ul>
     </nav>
 
     {% block body %}{% endblock %}
+
+    <div class=" bg-emerald-700 | h-[150px] md:h-[200px]" id="target-scroll"></div>
 </body>
 </html>

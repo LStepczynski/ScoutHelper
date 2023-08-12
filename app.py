@@ -7,11 +7,6 @@ def home():
     """The home page of the website"""
     return render_template("index.html")
 
-@app.route('/about')
-def about():
-    """Essential information about the website"""
-    return render_template('about.html')
-
 @app.route('/quiz')
 def quiz():
     """Quizzes about the scout knowledge"""
