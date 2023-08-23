@@ -12,5 +12,6 @@ def quiz():
     """Quizzes about the scout knowledge"""
     return render_template('quiz.html')
 
+
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,7 +1,56 @@
 {% extends 'base.html' %}
 
 {% block head %}
-    <title>Quiz</title>
+<title>Quiz</title>
 {% endblock %}
 
-{% block body %}{% endblock %}
+{% block body %}
+<div class="grid | justify-center"> <!-- wrapper -->
+    <div class=" bg-lime-100 | w-[80vw] md:w-[60vw] lg:w-[55vw] xl:w-[50vw] | pb-[50px] md:pb-[100px]">
+        <div class="grid | justify-center | mt-[30px] sm:mt-[50px] md:mt-[80px]">
+            <h1 class="text-[30px] xs:text-[40px] sm:text-[45px] md:text-[55px] xl:text-[65px] | mt-[10px] xs:-[20px] | text-lime-700 | font-caprasimo">Quizy</h1>
+        </div>
+
+        <div class="mt-[30px] | sm:mt-[50px]">
+            <ul class="text-center | gap-y-6 | underline | sm:grid | sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+                <li><a href="" class="">Krzyż Harcerski</a></li>
+                <li><a href="" class="">Lilijka</a></li>
+                <li><a href="" class="">Znaczek Zucha</a></li>
+                <li><a href="" class="">Kodeks i Dewiza Wędrownicza</a></li>
+                <li><a href="" class="">Watra Wędrownicza</a></li>
+            </ul>
+        </div>
+
+        <img src="../src/separator1.svg" alt="">
+        <img src="../src/separator2.svg" alt="">
+
+        <div class="grid | justify-center | mt-[30px] sm:mt-[50px] md:mt-[80px]">
+            <h1 class="text-[30px] xs:text-[40px] sm:text-[45px] md:text-[55px] xl:text-[65px] | mt-[10px] xs:-[20px] | text-lime-700 | font-caprasimo">Korzystanie</h1>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Wybierz quiz</h4>
+            <p class="text-[15px] | md:text-[18px]">Przejdź do początku strony i przeczytaj wszystkie podkreślone quizy. 
+                Po przeczytaniu zadecydój który quiz cie zainteresował i kliknij w niego.
+                Następnie zostaniesz przekierowany na odpowiednią strone.
+            </p>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Nauka</h4>
+            <p class="text-[15px] | md:text-[18px]">Po przekierowaniu przeczytaj tekst i materiały które pomogą w nauce danego zagadnienia.
+                Następnie spędź od 5 do 15 minut na utrwalenie wiadomości. Kiedy skończyłeś przewiń w dół aby
+                zacząć quiz.
+            </p>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Quiz</h4>
+            <p class="text-[15px] | md:text-[18px]">Po utrwaleniu materiałów i nauce wypełnij krótki quiz na temat wybranego zagadnienia. Po wypełnieniu 
+                dostaniesz ocenę i zobaczysz swoje błędy. 
+            </p>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

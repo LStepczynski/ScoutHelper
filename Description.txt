@@ -1,0 +1,2 @@
+Scout Helper is a website made in Polish language to encourage and teach scout knowledge.
+It contains texts on topics which you can quiz yourself on after.
