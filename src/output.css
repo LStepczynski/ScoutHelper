@@ -557,6 +557,10 @@ video {
   margin-bottom: 30px;
 }
 
+.mr-\[30px\] {
+  margin-right: 30px;
+}
+
 .mt-\[10px\] {
   margin-top: 10px;
 }
@@ -571,6 +575,14 @@ video {
 
 .mt-\[50px\] {
   margin-top: 50px;
+}
+
+.mt-\[15px\] {
+  margin-top: 15px;
+}
+
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .block {
@@ -597,17 +609,12 @@ video {
   height: 50px;
 }
 
+.w-\[200px\] {
+  width: 200px;
+}
+
 .w-\[80vw\] {
   width: 80vw;
-}
-
-.w-\[80\%\] {
-  width: 80%;
-}
-
-.w-max {
-  width: -moz-max-content;
-  width: max-content;
 }
 
 .flex-wrap {
@@ -616,10 +623,6 @@ video {
 
 .place-items-center {
   place-items: center;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .items-center {
@@ -634,20 +637,17 @@ video {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
+.gap-y-6 {
+  row-gap: 1.5rem;
+}
+
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .gap-y-5 {
   row-gap: 1.25rem;
-}
-
-.gap-y-10 {
-  row-gap: 2.5rem;
-}
-
-.gap-y-6 {
-  row-gap: 1.5rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -656,16 +656,34 @@ video {
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-x-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+.rounded-\[10px\] {
+  border-radius: 10px;
 }
 
-.space-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-\[3px\] {
+  border-width: 3px;
+}
+
+.border-\[4px\] {
+  border-width: 4px;
+}
+
+.border-gray-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(107 114 128 / var(--tw-border-opacity));
+}
+
+.border-lime-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(77 124 15 / var(--tw-border-opacity));
 }
 
 .bg-emerald-700 {
@@ -688,19 +706,19 @@ video {
   background-color: rgb(190 242 100 / var(--tw-bg-opacity));
 }
 
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
-}
-
 .px-\[5vw\] {
   padding-left: 5vw;
   padding-right: 5vw;
 }
 
-.px-\[20px\] {
-  padding-left: 20px;
-  padding-right: 20px;
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .pb-\[50px\] {
@@ -739,6 +757,10 @@ video {
   font-size: 30px;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -765,11 +787,11 @@ html {
   scroll-behavior: smooth;
 }
 
-.hover\:underline:hover {
-  text-decoration-line: underline;
-}
-
 @media (min-width: 460px) {
+  .xs\:flex {
+    display: flex;
+  }
+
   .xs\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.5rem * var(--tw-space-x-reverse));
@@ -803,6 +825,14 @@ html {
     margin-top: 50px;
   }
 
+  .sm\:mt-\[25px\] {
+    margin-top: 25px;
+  }
+
+  .sm\:mt-\[20px\] {
+    margin-top: 20px;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -811,21 +841,12 @@ html {
     display: grid;
   }
 
-  .sm\:columns-3 {
-    -moz-columns: 3;
-         columns: 3;
-  }
-
-  .sm\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .sm\:flex-wrap {
-    flex-wrap: wrap;
+  .sm\:text-\[20px\] {
+    font-size: 20px;
   }
 
   .sm\:text-\[40px\] {
@@ -855,12 +876,12 @@ html {
     margin-top: 60px;
   }
 
-  .md\:mt-\[70px\] {
-    margin-top: 70px;
-  }
-
   .md\:mt-\[80px\] {
     margin-top: 80px;
+  }
+
+  .md\:flex {
+    display: flex;
   }
 
   .md\:h-\[200px\] {
@@ -875,8 +896,13 @@ html {
     width: 60vw;
   }
 
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .md\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
   }
 
   .md\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
@@ -895,6 +921,10 @@ html {
 
   .md\:text-\[18px\] {
     font-size: 18px;
+  }
+
+  .md\:text-\[22px\] {
+    font-size: 22px;
   }
 
   .md\:text-\[25px\] {
