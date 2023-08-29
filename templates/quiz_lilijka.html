@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Quiz Lilijka</title>
+{% endblock %}
+
+{% block body %}
+<div class="grid | justify-center"> <!-- wrapper -->
+    <div class=" bg-lime-100 | w-[80vw] md:w-[60vw] lg:w-[55vw] xl:w-[50vw] | pb-[50px] md:pb-[100px]">
+        <div class="grid | justify-center | mt-[30px] sm:mt-[50px] md:mt-[80px]">
+            <h1 class="text-[30px] xs:text-[40px] sm:text-[45px] md:text-[55px] xl:text-[65px] | mt-[10px] xs:-[20px] | text-lime-700 | font-caprasimo | text-center">Lilijka Harcerska</h1>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Historia</h4>
+            <p class="text-[18px] | md:text-[22px]">Lilijka harcerska jest jednym z najbardziej rozpoznawalnych symboli harcerstwa, 
+                nie tylko w Polsce, ale także na świecie. Służy jako znak rozpoznawczy ruchu skautowego 
+                i harcerskiego oraz symbolizuje wartości i ideały, które są wpisane w kodeks harcerza. 
+                Korzenie lilijki harcerskiej sięgają początków ruchu skautowego, zapoczątkowanego przez 
+                Roberta Baden-Powella w Wielkiej Brytanii na początku XX wieku. Baden-Powell, widząc potrzebę 
+                kształtowania młodzieży w duchu patriotyzmu, samodzielności i braterstwa, stworzył ruch 
+                skautowy. Jako jego symbol wybrał kwiat lilii, nawiązujący do czystości, prawości i 
+                nieskazitelności.
+            </p>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Symbolika</h4>
+            <p class="text-[18px] | md:text-[22px]">ZHP stworzyło również swój własny, niepowtarzalny wygląd lilijki. Dzisiaj lilijka 
+                harcerska symbolizuje podążania harcerzy w dobrym kierunku, czyli zgodnie z ideałami 
+                zawartymi w Prawie i Przyrzeczeniu Harcerskim. Na jej ramionach umieszczono litery: 
+                ONC – są one skrótem od hasła z wiersza Adama Mickiewicza: „Ojczyzna – Nauka – Cnota”. 
+                Mają one przypominać o ważnych dla harcerzy wartościach. Lilijka ZHP posiada dodatkowo 
+                pierścień z nazwą organizacji, który symbolizuje przynależność do niej.
+                Chociaż możemy znaleźć wiele różnych interpretacji symboliki lilijki harcerskiej, 
+                sam gen. Robert Baden-Powell wyeliminował wszystkie domysły w książce „Mój uniwersytet życia” 
+                pisząc, że prawdziwe znaczenie jest takie, że (lilijka) wskazuje właściwy kierunek (w górę), 
+                nie obraca się, ani w prawo, ani w lewo, ponieważ wtedy znów można podążyć do tyłu. 
+                Trzy ramiona natomiast przypominają harcerzowi o trzech filarach Przyrzeczenia Harcerskiego – 
+                służbie Bogu i Ojczyźnie (królowi), pomocy innym ludziom i posłuszeństwie wobec Prawa Harcerskiego.
+            </p>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Ciekawostki</h4>
+            <p class="text-[18px] | md:text-[22px]">1. Pochodzenie i inspiracja: Lilijka harcerska została zainspirowana symbolem średniowiecznych 
+                rycerzy - lilijką heraldyczną, która zdobiła ich tarcze. Ten motyw został przekształcony w harcerską 
+                lilijkę, która ma przypominać o szlachetnych cechach charakteru, jakie harcerze starają się rozwijać. 
+                <br><br>
+                2. Pierwotny design: Lilijka harcerska miała różne warianty względem kształtu i układu elementów. 
+                Wkrótce jednak Związek Harcerstwa Polskiego (ZHP) przyjął swój charakterystyczny design, który zawiera 
+                litery "ONC" oraz pierścień z nazwą organizacji.
+                <br><br>
+                3. Skalowanie idei: Idea lilijki harcerskiej inspirowała również inne organizacje harcerskie na świecie. 
+                Chociaż poszczególne organizacje mogą mieć swoje własne wersje symbolu, wspólnym elementem jest przekazanie 
+                wartości i ideałów.
+            </p>
+        </div>
+
+        <img src="../src/separator1.svg" alt="">
+        <img src="../src/separator2.svg" alt="">
+
+        <div class="grid | justify-center | mt-[30px] sm:mt-[50px] md:mt-[80px]">
+            <h1 class="text-[30px] xs:text-[40px] sm:text-[45px] md:text-[55px] xl:text-[65px] | mt-[10px] xs:-[20px] | text-lime-700 | font-caprasimo | text-center">Quiz</h1>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <p class="text-[18px] | md:text-[22px] | text-center">
+                Ta sekcja jest przeznaczona do przetestowania wiedzy. Powoli i uważnie odpowiedz na wszystkie pytania dotyczące 
+                powyższego tekstu. Na koniec kliknij "Sprawdź" aby sprawdzić swoją wiedze. <br> <strong>Powodzenia!</strong>
+            </p>
+        </div>
+
+        <form method="POST" action="">
+            <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+                <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #1</h4>
+                <p class="text-[18px] | md:text-[22px]">Do jakich trzech wartości nawiązuje kwiat lilii na którym bazuje lilijka? (Podaj w bezokoliczniku)
+                </p>
+                <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                    <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                    <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                    <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                </div>
+            </div>
+
+            <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+                <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #2</h4>
+                <p class="text-[18px] | md:text-[22px]">Gdzie znajdują sie litery ONC na lilijce harcerskiej?
+                </p>
+                <div class="mt-[10px] sm:mt-[20px] | flex | flex-wrap">
+                    <p class="text-[18px] | md:text-[22px] | mr-4">Znajdują sie na:</p>
+                    <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                </div>
+            </div>
+
+            <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+                <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #3</h4>
+                <p class="text-[18px] | md:text-[22px]">Do czego nawiązują litery ONC?
+                </p>
+                <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                    <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                    <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                    <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                </div>
+            </div>
+
+            <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+                <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #4</h4>
+                <p class="text-[18px] | md:text-[22px]">O czym przypominają harcerzowi trzy ramiona lilijki?
+                </p>
+                <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                    <p class="text-[18px] | md:text-[22px] | mr-4">Przypominają one o:</p>
+                    <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                </div>
+            </div>
+
+            <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+                <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #5</h4>
+                <p class="text-[18px] | md:text-[22px]">Jaką lilijką została zainspirowana lilijka harcerska?
+                </p>
+                <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                    <p class="text-[18px] | md:text-[22px] | mr-4">Zainspirowana została lilijką:</p>
+                    <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                </div>
+            </div>
+
+            <div class="grid | xs:flex | justify-center | gap-x-5 | gap-y-5 | md:gap-x-10 | mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+                <button class="px-[15px] | py-[10px] | bg-lime-300 | border-[4px] | border-lime-700 | rounded-full | font-bold | text-lime-700 | text-[20px]">Sprawdź</button>
+                <button class="px-[15px] | py-[10px] | bg-lime-300 | border-[4px] | border-lime-700 | rounded-full | font-bold | text-lime-700 | text-[20px]">Odpowiedzi</button>
+            </div>
+            
+        </form>
+
+    </div>
+</div>
+{% endblock %}
