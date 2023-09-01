@@ -4,15 +4,12 @@ const checkBtn = document.getElementById("checkBtn");
 const answerBtn = document.getElementById("answerBtn");
 const scoreLabel = document.getElementById("scoreLabel");
 const correctAnswers = {
-    0 : "czystość",
-    1 : "prawość",
-    2 : "nieskazitelność",
-    3 : "ramionach",
-    4 : "ojczyzna",
-    5 : "nauka",
-    6 : "cnota",
-    7 : "przyrzeczeniu harcerskim",
-    8 : "heraldyczną",
+    0 : "WOSM",
+    1 : "Doskonałość",
+    2 : "Gwiazdek",
+    3 : "Męstwo",
+    4 : "Odwaga",
+    5 : "Kazimierz Lutosławski",
 }
 
 
@@ -28,7 +25,7 @@ function checkAnswers() {
 }
 
 function revealAnswers() {
-    for (i=0; i<9; i++) {
+    for (i=0; i<Object.keys(correctAnswers).length; i++) {
         inputs[i].value = correctAnswers[i];
     }
 }
