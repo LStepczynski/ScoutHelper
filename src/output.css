@@ -553,6 +553,10 @@ video {
   margin-bottom: 30px;
 }
 
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
 .mb-\[30px\] {
   margin-bottom: 30px;
 }
@@ -569,20 +573,16 @@ video {
   margin-top: 20px;
 }
 
+.mt-\[25px\] {
+  margin-top: 25px;
+}
+
 .mt-\[30px\] {
   margin-top: 30px;
 }
 
 .mt-\[50px\] {
   margin-top: 50px;
-}
-
-.mb-\[15px\] {
-  margin-bottom: 15px;
-}
-
-.mt-\[25px\] {
-  margin-top: 25px;
 }
 
 .block {
@@ -613,12 +613,12 @@ video {
   width: 200px;
 }
 
-.w-\[80vw\] {
-  width: 80vw;
-}
-
 .w-\[240px\] {
   width: 240px;
+}
+
+.w-\[80vw\] {
+  width: 80vw;
 }
 
 .flex-wrap {
@@ -757,10 +757,6 @@ video {
   font-size: 30px;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
-}
-
 .text-\[50px\] {
   font-size: 50px;
 }
@@ -821,6 +817,10 @@ html {
     margin-right: 40px;
   }
 
+  .sm\:mb-\[25px\] {
+    margin-bottom: 25px;
+  }
+
   .sm\:mb-\[50px\] {
     margin-bottom: 50px;
   }
@@ -831,10 +831,6 @@ html {
 
   .sm\:mt-\[50px\] {
     margin-top: 50px;
-  }
-
-  .sm\:mb-\[25px\] {
-    margin-bottom: 25px;
   }
 
   .sm\:grid {
@@ -855,10 +851,6 @@ html {
 
   .sm\:text-\[45px\] {
     font-size: 45px;
-  }
-
-  .sm\:text-\[30px\] {
-    font-size: 30px;
   }
 
   .sm\:text-\[70px\] {
@@ -943,10 +935,6 @@ html {
     font-size: 55px;
   }
 
-  .md\:text-\[40px\] {
-    font-size: 40px;
-  }
-
   .md\:text-\[90px\] {
     font-size: 90px;
   }
@@ -964,10 +952,6 @@ html {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:text-\[50px\] {
-    font-size: 50px;
   }
 
   .lg\:text-\[110px\] {

@@ -12,9 +12,13 @@ def quiz():
     """Quizzes about the scout knowledge"""
     return render_template('quiz.html')
 
-@app.route('/quiz/lilijka', methods=['GET', 'POST'])
+@app.route('/quiz/lilijka')
 def lilijka():
     return render_template('quiz_lilijka.html')
+
+@app.route('/quiz/krzyz')
+def krzyz():
+    return render_template('quiz_krzyz.html')
 
 
 if __name__ == "__main__":
