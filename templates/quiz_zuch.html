@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Quiz Znaczek Zucha</title>
+{% endblock %}
+
+{% block body %}
+<div class="grid | justify-center"> <!-- wrapper -->
+    <div class=" bg-lime-100 | w-[80vw] md:w-[60vw] lg:w-[55vw] xl:w-[50vw] | pb-[50px] md:pb-[100px]">
+        <div class="grid | justify-center | mt-[30px] sm:mt-[50px] md:mt-[80px]">
+            <h1 class="text-[30px] xs:text-[40px] sm:text-[45px] md:text-[55px] xl:text-[65px] | mt-[10px] xs:-[20px] | text-lime-700 | font-caprasimo | text-center">Znaczek Zucha</h1>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Historia</h4>
+            <p class="text-[18px] | md:text-[22px]">Projekt znaczka dla zuchów został stworzony przez Franciszka Dębskiego, instruktora zuchowego z Krakowa. 
+                Jego koncepcja została zaprezentowana na konferencji harcersko-pedagogicznej w Warszawie, która miała miejsce 
+                od 29 maja do 9 czerwca 1956 roku. Konferencja była zorganizowana przez Wydział Szkolno-Harcerski Centralnego 
+                Zarządu ZMP i odbyła się w okresie zmian w Organizacji Harcerskiej Polski Ludowej oraz formułowania nowych 
+                metod działania i struktury organizacji. Zmiany te zostały podsumowane na Krajowym Zjeździe Działaczy Harcerskich 
+                w Łodzi, który odbył się od 8 do 10 grudnia 1956 roku. Znaczek jest wręczany zuchom po złożeniu ich 
+                obietnicy. Znaczek zucha jest również odznaką w innych organizacjach harcerskich, zarówno w Polsce, jak i za granicą.
+            </p>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Symbolika</h4>
+            <p class="text-[18px] | md:text-[22px]"> Znaczek zucha posiada wiele elementów a każdy z nich ma swoje własne znaczenie. Słońce symbolizuje radość
+                a promienie słoneczne świecenie przykładem, gotowość do służby i pomocy innym. Biały orzeł to męstwo, odwaga
+                i dzielność jakim powinien wykazywać sie zuch. Niebieskie tło nawiązuje do pogody ducha a napis "ZUCH" określa
+                przynależność do ZHP.
+            </p>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Ciekawostki</h4>
+            <p class="text-[18px] | md:text-[22px]">1. W okresie 1933-1939 i 1945-1949, znaczek dla chłopców miał formę głowy wilka, a dla dziewcząt był 
+                to równoramienny trójkąt z słońcem i promieniami, na którym widniały litery "ZHP". 
+                <br><br>
+                2. Dla wielu dorosłych, którzy byli zuchami w dzieciństwie, znaczek zucha pozostaje ważnym symbolem i często jest 
+                przechowywany jako pamiątka z młodości.
+                <br><br>
+                3. W niektórych organizacjach harcerskich znaczek zucha może mieć różne wersje dla różnych grup wiekowych lub 
+                poziomów zaawansowania, co dodaje dodatkową warstwę znaczenia i indywidualizacji.
+            </p>
+        </div>
+
+        <img src="../src/separator1.svg" alt="">
+        <img src="../src/separator2.svg" alt="">
+
+        <div class="grid | justify-center | mt-[30px] sm:mt-[50px] md:mt-[80px]">
+            <h1 class="text-[30px] xs:text-[40px] sm:text-[45px] md:text-[55px] xl:text-[65px] | mt-[10px] xs:-[20px] | text-lime-700 | font-caprasimo | text-center">Quiz</h1>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <p class="text-[18px] | md:text-[22px] | text-center">
+                Ta sekcja jest przeznaczona do przetestowania wiedzy. Powoli i uważnie odpowiedz na wszystkie pytania dotyczące 
+                powyższego tekstu używając słów poniżej, niektóre słowa zostałe dodane dla utrudnienia. Na koniec kliknij "Sprawdź" 
+                aby sprawdzić swoją wiedze. <br> <strong>Powodzenia!</strong>
+            </p>
+        </div>
+
+        <div class="grid | justify-center | mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <p class="text-[18px] | md:text-[22px] | text-center">
+                Obietnice zuchową | ZHR | Męstwo | ZHP | Frańciszek Dębski | Odwaga | Pomoc bliźnim | Pogoda ducha | Dzielność
+            </p>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #1</h4>
+            <p class="text-[18px] | md:text-[22px]"> Kto stworzył projekt znaczka zuchowego?
+            </p>
+            <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+            </div>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #2</h4>
+            <p class="text-[18px] | md:text-[22px]">Co musi zrobić zuch aby otrzymać znaczek zuchowy?
+            </p>
+            <div class="mt-[10px] sm:mt-[20px] | flex | flex-wrap">
+                <p class="text-[18px] | md:text-[22px] | mr-4">Musi on złożyć:</p>
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+            </div>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #3</h4>
+            <p class="text-[18px] | md:text-[22px]">Co symbolizuje biały orzeł na znaczku zucha?
+            </p>
+            <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+            </div>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #4</h4>
+            <p class="text-[18px] | md:text-[22px]">Jaką wartość symbolizuje niebieskie niebo na znaczku zuchowym?
+            </p>
+            <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[240px] | sm:text-[20px]" type="text">
+            </div>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #5</h4>
+            <p class="text-[18px] | md:text-[22px]">Co oznacza napis "ZUCH" na znaczku zuchowym?
+            </p>
+            <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                <p class="text-[18px] | md:text-[22px] | mr-4">Oznacza prynależność do:</p>
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+            </div>
+        </div>
+
+        <div class="grid | justify-center | mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[25px] md:mt-[50px] | mb-[15px] sm:mb-[25px]">
+            <h4 id="scoreLabel"  class="text-[50px] sm:text-[70px] md:text-[90px] lg:text-[110px] | text-lime-700 | font-caprasimo"></h4>
+        </div>
+
+        <div class="grid | xs:flex | justify-center | gap-x-5 | gap-y-5 | md:gap-x-10 | mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <button id="checkBtn"  class="px-[15px] | py-[10px] | bg-lime-300 | border-[4px] | border-lime-700 | rounded-full | font-bold | text-lime-700 | text-[20px]">Sprawdź</button>
+            <button id="answerBtn"  class="px-[15px] | py-[10px] | bg-lime-300 | border-[4px] | border-lime-700 | rounded-full | font-bold | text-lime-700 | text-[20px]">Odpowiedzi</button>
+        </div>
+            
+
+    </div>
+</div>
+
+<script src="..\src\js\quiz_zuch.js"></script>
+{% endblock %}

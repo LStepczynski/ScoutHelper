@@ -4,15 +4,13 @@ const checkBtn = document.getElementById("checkBtn");
 const answerBtn = document.getElementById("answerBtn");
 const scoreLabel = document.getElementById("scoreLabel");
 const correctAnswers = {
-    0 : "czystość",
-    1 : "prawość",
-    2 : "nieskazitelność",
-    3 : "ramionach",
-    4 : "ojczyzna",
-    5 : "nauka",
-    6 : "cnota",
-    7 : "przyrzeczeniu harcerskim",
-    8 : "heraldyczną",
+    0 : "Frańciszek Dębski",
+    1 : "Obietnice zuchową",
+    2 : "Męstwo",
+    3 : "Odwaga",
+    4 : "Dzielność",
+    5 : "Pogode ducha",
+    6 : "ZHP",
 }
 
 
