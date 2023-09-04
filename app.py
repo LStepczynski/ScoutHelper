@@ -20,6 +20,10 @@ def lilijka():
 def krzyz():
     return render_template('quiz_krzyz.html')
 
+@app.route('/quiz/znaczek-zucha')
+def zuch():
+    return render_template('quiz_zuch.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
