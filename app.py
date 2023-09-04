@@ -24,6 +24,10 @@ def krzyz():
 def zuch():
     return render_template('quiz_zuch.html')
 
+@app.route('/quiz/kodeks-dewiza-wedrownicza')
+def kodeks_dewiza():
+    return render_template('quiz_kodeks_dewiza.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
