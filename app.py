@@ -28,6 +28,10 @@ def zuch():
 def kodeks_dewiza():
     return render_template('quiz_kodeks_dewiza.html')
 
+@app.route('/quiz/watra-wedrownicza')
+def watra():
+    return render_template('quiz_watra.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
