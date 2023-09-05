@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Kodeks i Dewiza Wędrownicza</title>
+{% endblock %}
+
+{% block body %}
+<div class="grid | justify-center"> <!-- wrapper -->
+    <div class=" bg-lime-100 | w-[80vw] md:w-[60vw] lg:w-[55vw] xl:w-[50vw] | pb-[50px] md:pb-[100px]">
+        <div class="grid | justify-center | mt-[30px] sm:mt-[50px] md:mt-[80px]">
+            <h1 class="text-[30px] xs:text-[40px] sm:text-[45px] md:text-[55px] xl:text-[65px] | mt-[10px] xs:-[20px] | text-lime-700 | font-caprasimo | text-center">Watra Wędrownicza</h1>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <p class="text-[18px] | md:text-[22px]"> Watra wędrownicza jest jednym z najbardziej rozpoznawalnych symboli skautingu w Polsce, zwłaszcza wśród starszych harcerzy, 
+                nazywanych wędrownikami. Ukazuje ona ognisko na zielonym tle i znajduje sie na naramienniku wędrowniczym. Jej pochodzenie i znaczenie 
+                są ściśle związane z ideą wędrowniczego stylu życia i ducha przygody, jakim kierują się harcerze wędrownicy. Jest to ceniony symbol w 
+                polskim ruchu skautowym, stanowiący ważny element tożsamości wędrowników.
+            </p>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Znaczenie</h4>
+            <p class="text-[18px] | md:text-[22px]"><strong>Ognisko</strong> - symbol ciepła, bliskości, więzi, domu, rodziny, wiedzy, energii. <br>
+                <strong>Kolor zielony</strong> - oznacza, że wszystkie niżej wymienione punkty powinny odbywać się na tle harcerskiego życia. <br>
+                <strong>Pierwsze polano</strong> - oznacza służbę. Wędrownik wychodzi w świat i szuka miejsca, w którym może pomóc innym. Jest przez to pożyteczny, nie zamyka się tylko w swoim środowisku. <br>
+                <strong>Drugie polano</strong> - oznacza "szukanie miejsca w społeczeństwie"- wędrownik to nie tylko harcerz ale także osoba, która spełnia funkcje w rodzinie, szkole czy pracy. Wędrownictwo <br>
+                ma służyć przygotowaniu się do życia w świecie- dążenie do samorealizacji poza środowiskiem harcerskim. <br>
+                <strong>Trzecie polano Watry</strong> - symbol samodoskonalenia się - wędrownik potrafi dążyć do tego by być coraz lepszym człowiekiem. Wyznacza sobie cele do których uparcie dąży. <br>
+                <strong>Najmniejszy płomień Watry</strong> - "siła ciała" - wędrówka jest wysiłkiem fizycznym, który wyrabia silną wolę. Wędrownik stara się przekroczyć granice swoich możliwości fizycznych. <br>
+                <strong>Środkowy płomień symbolizuje</strong> "siłę rozumu"- oznacza to wędrówkę po świecie wiedzy i różnych zainteresowań. <br>
+                <strong>Najwyższy płomień</strong> oznacza "siłę ducha" - podczas życiowej wędrówki kształtuje się umysł, wędrownik dąży do poznania prawdy i Boga.
+                
+            </p>
+        </div>
+
+        <img src="../src/separator1.svg" alt="">
+        <img src="../src/separator2.svg" alt="">
+
+        <div class="grid | justify-center | mt-[30px] sm:mt-[50px] md:mt-[80px]">
+            <h1 class="text-[30px] xs:text-[40px] sm:text-[45px] md:text-[55px] xl:text-[65px] | mt-[10px] xs:-[20px] | text-lime-700 | font-caprasimo | text-center">Quiz</h1>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <p class="text-[18px] | md:text-[22px] | text-center">
+                Ta sekcja jest przeznaczona do przetestowania wiedzy. Powoli i uważnie odpowiedz na wszystkie pytania dotyczące 
+                powyższego tekstu używając słów poniżej, niektóre słowa zostałe dodane dla utrudnienia. Na koniec kliknij "Sprawdź" 
+                aby sprawdzić swoją wiedze. <br> <strong>Powodzenia!</strong>
+            </p>
+        </div>
+
+        <div class="grid | justify-center | mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <p class="text-[18px] | md:text-[22px] | text-center">
+                Duchowa | nieskazitelność | Życiu | inspiaracja | ojczyzna | Zobacz | Drogowskazem | Biernymi | Kodeks Wędrowniczy | Horyzontów
+            </p>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #1</h4>
+            <p class="text-[18px] | md:text-[22px]">Jest symbolem ciepła, bliskości, więzi, domu, rodziny, wiedzy, energii.
+            </p>
+            <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+            </div>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #2</h4>
+            <p class="text-[18px] | md:text-[22px]">Znajduje sie na naramienniku wędrowniczym.
+            </p>
+            <div class="mt-[10px] sm:mt-[20px] | flex | flex-wrap">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+            </div>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #3</h4>
+            <p class="text-[18px] | md:text-[22px]">Trzecie polano Watry - symbol ______ się - wędrownik potrafi dążyć do tego by być coraz lepszym człowiekiem. 
+                Wyznacza sobie ______ do których uparcie dąży.
+            </p>
+            <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+            </div>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #4</h4>
+            <p class="text-[18px] | md:text-[22px]">Pierwsze polano - oznacza służbę. Wędrownik wychodzi w ______ i szuka miejsca, w którym może pomóc innym. Jest przez to ______, nie zamyka się tylko w swoim środowisku.
+            </p>
+            <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+            </div>
+        </div>
+
+        <div class="mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <h4 class="font-caprasimo | text-[18px] md:text-[30px] | text-green-700">Pytanie #5</h4>
+            <p class="text-[18px] | md:text-[22px]">Oznacza siłe ciała rozumu i ducha.
+            </p>
+            <div class="flex | flex-wrap | mt-[10px] sm:mt-[20px]">
+                <input class="border-[3px] | border-gray-500 | rounded-[10px] | w-[200px] | sm:text-[20px]" type="text">
+            </div>
+        </div>
+
+        <div class="grid | justify-center | mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[25px] md:mt-[50px] | mb-[15px] sm:mb-[25px]">
+            <h4 id="scoreLabel"  class="text-[50px] sm:text-[70px] md:text-[90px] lg:text-[110px] | text-lime-700 | font-caprasimo"></h4>
+        </div>
+
+        <div class="grid | xs:flex | justify-center | gap-x-5 | gap-y-5 | md:gap-x-10 | mx-[20px] sm:mx-[40px] md:mx-[60px] lg:mx-[100px] xl:mx-[150px] | mt-[50px] md:mt-[100px] | mb-[30px] sm:mb-[50px]">
+            <button id="checkBtn"  class="px-[15px] | py-[10px] | bg-lime-300 | border-[4px] | border-lime-700 | rounded-full | font-bold | text-lime-700 | text-[20px]">Sprawdź</button>
+            <button id="answerBtn"  class="px-[15px] | py-[10px] | bg-lime-300 | border-[4px] | border-lime-700 | rounded-full | font-bold | text-lime-700 | text-[20px]">Odpowiedzi</button>
+        </div>
+            
+
+    </div>
+</div>
+
+<script src="..\src\js\quiz_watra.js"></script>
+{% endblock %}
